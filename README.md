@@ -21,14 +21,12 @@ The main finding is that the ATP circuit is slightly more concentrated *and* mor
 ```
 .
 ├── final_datasets.ipynb      # data ingestion, cleaning, dataset construction
-├── network_analysis.ipynb    # Neo4j/GDS network construction, metrics, figures
-├── data/
+├── network_analysis.ipynb    # Neo4j/GDS network construction, metrics, output figures
+├── data.zip/
 │   ├── matches_all.csv
 │   ├── players_all.csv
 │   ├── tournaments_all.csv
-│   ├── rankings_all.csv
-│   └── github_raw_data/      # raw Sackmann ATP/WTA source files
-├── output/                   # figures used in the thesis
+│   └── rankings_all.csv      
 └── ER_diagram.graphml        # entity-relationship diagram of the graph model
 ```
 
