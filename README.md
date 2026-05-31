@@ -3,8 +3,11 @@
 **Structural Differences Between ATP and WTA Circuits Using Neo4j and Graph Data Science**
 
 Bachelor's thesis — LUISS Guido Carli, Department of Business and Management.
+
 Bachelor's Degree in Management & Computer Science, Course of Databases & Big Data.
+
 Candidate: Giulia Castelli (Student ID 300691).
+
 Supervisor: Prof. Blerina Sinaimeri. Academic Year 2025/2026.
 
 ## Overview
@@ -22,7 +25,7 @@ The main finding is that the ATP circuit is slightly more concentrated *and* mor
 .
 ├── final_datasets.ipynb      # data ingestion, cleaning, dataset construction
 ├── network_analysis.ipynb    # Neo4j/GDS network construction, metrics, output figures
-├── data.zip/
+├── data.zip/                 # cleaned datasets (unzip before running)
 │   ├── matches_all.csv
 │   ├── players_all.csv
 │   ├── tournaments_all.csv
@@ -37,9 +40,7 @@ All match, player, tournament, and ranking data used in this thesis come from **
 - ATP: https://github.com/JeffSackmann/tennis_atp
 - WTA: https://github.com/JeffSackmann/tennis_wta
 
-The raw source files are kept in `data/github_raw_data/`. The cleaned, harmonised datasets used by the analysis (`matches_all.csv`, `players_all.csv`, `tournaments_all.csv`, `rankings_all.csv`) are built from those sources in `final_datasets.ipynb`.
-
-I did not collect any of the underlying tennis data myself — full credit for the data goes to Jeff Sackmann. The Sackmann repositories are distributed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0** license, and any reuse of the data in this repository is subject to those terms.
+The cleaned datasets used by the analysis (`matches_all.csv`, `players_all.csv`, `tournaments_all.csv`, `rankings_all.csv`) are shipped in data.zip and are built from the Sackmann sources in `final_datasets.ipynb`.
 
 ## Requirements
 
@@ -70,4 +71,3 @@ If you use this work, please cite:
 
 The tennis data in this repository is **not mine** — it is redistributed from Jeff Sackmann's ATP/WTA repositories under their **CC BY-NC-SA 4.0** terms (attribution, non-commercial, share-alike).
 
-No license has been chosen yet for the code in this repository; until one is added, default copyright applies.
